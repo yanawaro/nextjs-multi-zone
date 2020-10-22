@@ -1,3 +1,3 @@
 export function libtest() {
-  return 'import from lib'
+  return 'import from lib dir'
 }
