@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import { Hello } from '../../../components/Hello.tsx'
-import { libtest } from '../../../libs/libs'
+import { Hello } from '../../components/Hello.tsx'
+import { libtest } from '../../libs/libs'
 
 export default function Blog() {
   return (
