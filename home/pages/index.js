@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import dynamic from 'next/dynamic'
-import { Hello } from '../../components/Hello'
+import { Hello } from '@/components/Hello'
 
 const Header = dynamic(import('../../components/Header'))
 
