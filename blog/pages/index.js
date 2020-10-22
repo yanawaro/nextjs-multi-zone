@@ -23,7 +23,7 @@ export default function Blog() {
       <div>
         <img
           width={200}
-          src={`nextjs2.png`}
+          src={`/nextjs2.png`}
         />
       </div>
     </div>
