@@ -3,7 +3,7 @@ name: Playwright-Home
 on:
   pull_request:
     branches: 
-      - 'home/**'
+      - 'home/*'
 
 jobs:
   e2e:
