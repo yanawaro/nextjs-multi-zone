@@ -1,9 +1,9 @@
-name: Playwright-Blog
+name: Playwright-Home
 
 on:
   pull_request:
     branches: 
-      - 'blog/**'
+      - 'home/*'
 
 jobs:
   e2e:
@@ -17,6 +17,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           max_timeout: 60
       - name: run tests
-        run: echo 'Blog'
+        run: echo 'Home'
         env:
           BASEURL: ${{steps.waitFor200.outputs.url}}
