@@ -1,7 +1,7 @@
 name: Playwright-Home
 
 on:
-  pull_request:
+  push:
     branches: 
       - 'home/*'
 
