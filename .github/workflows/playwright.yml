@@ -1,9 +1,9 @@
 name: Playwright-Home
 
 on:
-  push:
+  pull_request:
     branches: 
-      - 'home/*'
+      - 'blog/*'
 
 jobs:
   e2e:
