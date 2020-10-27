@@ -9,7 +9,7 @@ export default function Home() {
     <div>
       <Hello />
       <Header />
-      <p>This is our homepage</p>
+      <p>This is our homepage!!!</p>
       <div>
         <a href="/blog">Blog</a>
       </div>
