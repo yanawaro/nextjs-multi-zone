@@ -6,7 +6,7 @@ export default function Blog() {
   return (
     <div>
       <Hello />
-      <h3>This is our blog</h3>
+      <h3>This is our blog, added content</h3>
       <ul>
         <li>
           <Link href="/blog/post/[id]" as="/blog/post/1">
