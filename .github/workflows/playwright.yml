@@ -15,7 +15,7 @@ jobs:
           max_timeout: 120
           projects: '["nextjs-multi-zone-2", "nextjs-multi-zone"]'
       - name: run tests
-        run: echo ${{steps.waitFor200.outputs.urls}}
+        run: echo ${{steps.waitFor200.outputs}}
 
         # env:
         #   BASEURL: ${{steps.waitFor200.outputs.url}}
