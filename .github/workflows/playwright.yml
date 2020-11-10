@@ -13,9 +13,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           max_timeout: 120
-          projects:
-            - home
-            - blog
+          projects: '["home", "blog"]'
       - name: run tests
         run: echo ${{steps.waitFor200.outputs.urls}}
 
