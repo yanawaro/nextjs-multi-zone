@@ -13,7 +13,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           max_timeout: 120
-          projects: '["home", "blog"]'
+          projects: '["nextjs-multi-zone", "nextjs-multi-zone-2"]'
       - name: run tests
         run: echo ${{steps.waitFor200.outputs.urls}}
 
