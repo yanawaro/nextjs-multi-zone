@@ -7,7 +7,7 @@
     "dev:blog": "next dev ./blog"
   },
   "dependencies": {
-    "next": "^9.5.5",
+    "next": "^10.2.3",
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
   },
