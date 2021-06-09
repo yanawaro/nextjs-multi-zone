@@ -1,19 +1,19 @@
 import App from "next/app"
 import type { AppProps , AppContext } from 'next/app'
-import { ApolloProvider } from '@apollo/client'
-import withGraphQl from '../../libs/graphqlClient'
+// import { ApolloProvider } from '@apollo/client'
+// import withGraphQl from '../../libs/graphqlClient'
 
-interface MyAppProps extends AppProps {
-  apollo: any
-}
+// interface MyAppProps extends AppProps {
+//   apollo: any
+// }
 
-const MyApp = (props: MyAppProps) => {
-  const { Component, pageProps, apollo } = props
+const MyApp = (props: AppProps) => {
+  const { Component, pageProps /*, apollo */ } = props
 
   return (
-    <ApolloProvider client={apollo}>
+    // <ApolloProvider client={apollo}>
       <Component {...pageProps} />
-    </ApolloProvider>
+    // </ApolloProvider>
   )
 }
 
@@ -31,4 +31,4 @@ MyApp.getInitialProps = async (appContext: AppContext) => {
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
-export default withGraphQl({ ssr: true })(MyApp)
+export default MyApp
